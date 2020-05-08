@@ -178,7 +178,7 @@
       var vid = $('#snow');
       var button = $('#snowbutton');
       $(document).on('ready', vid.hide());
-      button.on('click',()=>{vid.toggle(1000)});
+      button.click(()=>{vid.slideToggle('slow')});
     </script>
   </body>
 </html>
